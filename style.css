@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,600;1,500&family=Inter:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F4F5FC;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+#navegacao{
+    display: flex;
+    gap: 30px;
+}
+
+.itens-nav{
+    color: #35353D;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.itens-nav:hover{
+    color: #676777;
+}
+
+.botao{
+    background-color: #F1554C;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 35px;;
+    border-radius: 7px;
+    width: 152px;
+}
+
+.botao:hover{
+    background-color: #e24e46;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 2%;
+    width: 385px;
+    margin-bottom: 9%;
+}
+
+#conteudo-escrito h2{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #414246;
+}
+
+#conteudo-escrito h1{
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 53px;
+    color: #393D51;;
+}
+
+#conteudo-escrito span{
+    color: #F1554C;
+}
+
+#conteudo-escrito p{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
+    color: #414246;
+}
+
+#play{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#play p{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #393D51;
+}
